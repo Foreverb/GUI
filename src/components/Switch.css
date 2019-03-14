@@ -1,0 +1,74 @@
+.switch-wrap{
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  height: 22px;
+  min-width: 44px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  background-color: rgba(0,0,0,.25);
+  cursor: pointer;
+  display: inline-block;
+  transition: all .36s;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.circle-default{
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  cursor: pointer;
+  position: absolute;
+}
+.wrap-checked{
+  background-color: #1890ff;
+}
+.circle-checked{
+  right: 1px;
+  top: 1px;
+  transition: all .36s
+}
+.circle-unChecked{
+  left: 1px;
+  top: 1px;
+}
+.switch-disabled{
+  opacity: .4;
+}
+.switch-small{
+  height: 16px;
+  min-width: 28px;
+  line-height: 14px;
+}
+.circle-small{
+  width: 12px;
+  height: 12px;
+}
+.checked-word{
+  margin-left: 6px;
+  margin-right: 24px;
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  cursor: pointer;
+  line-height: 20px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+.unChecked-word{
+  color: #fff;
+  font-size: 12px;
+  margin-left: 24px;
+  margin-right: 6px;
+  display: block;
+  cursor: pointer;
+  line-height: 20px;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+.word-hide{
+  display: none;
+}

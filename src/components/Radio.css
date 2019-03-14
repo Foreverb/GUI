@@ -1,0 +1,13 @@
+.radio-word{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.radio-default{
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.disabled{
+  outline: none;
+  cursor: not-allowed;
+}

@@ -1,0 +1,17 @@
+.breabcrumb{
+  display: inline-block;
+}
+.breabcrumb>span>a{
+  cursor: pointer;
+  margin: 5px;
+  color: #999;
+}
+.breabcrumb>span:hover i{
+  color: #1890ff;
+}
+.breabcrumb>span:hover a{
+  color: #1890ff;
+}
+.breabcrumb>span>a{
+  text-decoration: none;
+}

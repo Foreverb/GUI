@@ -1,0 +1,90 @@
+.page-button .button{ margin: 0 20px;}
+
+.button{
+  outline: none;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #999;
+  transition: all .3s;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0px 10px;
+}
+.button-type-normal{
+  background-color: #1890ff;
+  color: #fff;
+}
+.button-type-normal:hover{
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+.button-type-dashed{
+  border: 1px dashed #ccc;
+}
+.button-type-dashed:hover{
+  color: #1890ff;
+  border-color: #1890ff;
+}
+.button-type-dotted{
+  border: 1px dotted #ccc;
+}
+.button-type-dotted:hover{
+  color: #1890ff;
+  border-color: #1890ff;
+}
+.button-type-danger{
+  background-color: #eee;
+  color: red;
+}
+.button-type-danger:hover{
+  background-color: red;
+  color: #fff;
+  border-color: red;
+}
+.button-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.wrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-disabled{
+  cursor: not-allowed;
+  background-color: #ccc;
+  border-color: #888;
+}
+.button-disabled:hover{
+  background-color: #ccc;
+  border-color: #888;
+  color: #999;
+}
+.button-size-large{
+  height: 40px;
+}
+.button-size-default{
+  height: 32px;
+}
+.button-size-small{
+  height: 24px;
+}
+.icon-animate-rotated,.icon-loading,.icon-loading1{
+  color: #1890ff;
+  animation:Rotate 1s infinite;
+  display: inline-block;
+}
+.button{
+  font-weight: 100;
+  color: #666;
+}
+.drop-button{
+  margin: 10px;
+  margin-left: -1px;
+}
+.button:hover{
+  border-color: #189ff0;
+}

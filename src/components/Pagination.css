@@ -1,0 +1,36 @@
+.paginationDisL{
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: rgba(0,0,0,.25);
+}
+.paginationDisL:hover{
+  cursor: not-allowed;
+  border-color: #d9d9d9;
+  color: rgba(0,0,0,.25);
+}
+.Previous,.Next{
+  cursor: pointer;
+}
+.checked{
+  border-color: #189ff0;
+  color: #189ff0;
+}
+.menuNum{
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0px 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.menuNum:hover{
+  border-color: #189ff0;
+  color: #189ff0;
+}

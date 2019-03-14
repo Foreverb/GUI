@@ -1,0 +1,47 @@
+a{
+  text-decoration: none;
+  color: #000;
+}
+.demo-wrap{
+  border: 1px solid #ccc;
+  min-width: 40%;
+  max-width: 48%;
+  display: inline-block;
+  margin: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.instance-con{
+  border-bottom: 1px solid #ebedf0;
+  padding: 42px 24px 50px;
+  /* overflow: hidden; */
+}
+.desc-con{
+  padding: 18px 32px;
+  border-radius: 0 0 2px 2px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  /* white-space: pre-line; */
+}
+.demo-title{
+  position: absolute;
+  top: -14px;
+  padding: 1px 8px;
+  margin-left: -8px;
+  color: #777;
+  border-radius: 2px 2px 0 0;
+  background: #fff;
+}
+.demo-title a{
+  cursor: pointer;
+  color: #777;
+}
+.demo-icon{
+  font-size: 16px;
+}
+.demo-icon:hover{
+  color: #189ff0;
+  cursor: pointer;
+}

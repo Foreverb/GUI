@@ -1,0 +1,54 @@
+.wrap-steps{
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.cir{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #1890ff;
+  text-align: center;
+  line-height: 40px;
+  color: #999;
+}
+.line{
+  display: inline-block;
+  width: 100px;
+  border-top: 1px solid #ccc;
+}
+.Dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #1890ff;
+  display: inline-block;
+  margin: 0px 10px;
+}
+.line-box{
+  display: inline-block;
+}
+.Finished{
+  font-size: 16px;
+  color: rgba(0,0,0,.65);
+  display: inline-block;
+  padding-right: 16px;
+  position: relative;
+  line-height: 32px;
+}
+.In-progress{
+  font-size: 16px;
+  color: rgba(0,0,0,.65);
+  display: inline-block;
+  padding-right: 16px;
+  position: relative;
+  line-height: 32px;
+}
+.Waiting{
+  font-size: 16px;
+  color: rgba(0,0,0,.65);
+  display: inline-block;
+  padding-right: 16px;
+  position: relative;
+  line-height: 32px;
+}

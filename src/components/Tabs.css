@@ -1,0 +1,164 @@
+.tab-disabled{
+  color: #ccc;
+  cursor: default;
+}
+.tag-wrap{
+  display: inline-block;
+}
+.tag-normal{
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fafafa;
+  color: #999;
+  margin: 5px;
+  padding: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.tag-normal:hover{
+  opacity: 0.85;
+}
+.tag-style{
+  display: none;
+}
+.close{
+  float: right;
+  display: inline-block;
+}
+.close:hover{
+  cursor: pointer;
+}
+.title-strong{
+  font-weight: 800;
+  color: #000;
+  font-size: 16px;
+}
+
+.btn-wrap{
+  margin-bottom: 20px;
+}
+
+.changeT{
+  margin: 0px 10px;
+}
+/* .tab-Vertical{
+  float: left;
+} */
+
+
+.tab-wrap{
+ display: flex;
+ width: 100%;
+ display: inline-block;
+ height: 100%;
+ /* background: #eee; */
+ flex-direction: column;
+}
+/* 头部 */
+.tab-wrap .tab-head{
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* background: rgba(255,0,0,.1); */
+}
+
+.tab-head-item{
+  padding: 12px 16px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.tab-head-item:hover{
+  color: #189ff0;
+  cursor: pointer;
+}
+.tab-checked{
+ border-bottom: 3px solid #189ff0;
+ color: #189ff0;
+}
+.icon{
+	width: 32px;
+}
+.iconS{
+	height: 32px;
+}
+.icon:hover,.iconS:hover{
+	color: #189ff0;
+	cursor: pointer;
+}
+.hasBorder{
+	background: #fafafa;
+	border-color: #e8e8e8;
+	padding-bottom: 1px;
+	margin: 0;
+	border: 1px solid #e8e8e8;
+	border-radius: 4px 4px 0 0;
+	margin-right: 2px;
+	padding: 0 16px;
+	box-sizing: border-box;
+	display: inline-block;
+}
+.tab-Small{
+  font-size: 14px;
+}
+.tab-Default{
+  font-size: 18px;
+}
+.tab-Large{
+  font-size: 22px;
+}
+.tab-disabled,.tab-disabled:hover{
+	color: #eee;
+	cursor: default;
+}
+
+/* 头部标签可视区域 */
+.tab-head-viewport{
+	height: 60px;
+	/* background: rgba(255,0,255,.1); */
+	flex: 1;
+	overflow: hidden;
+}
+/*  主要内容 */
+.tab-main{
+	flex: 1;
+	/* background: rgba(255,255,0,.1); */
+}
+
+/* 垂直样式 */
+.tab-wrap-vertical{
+	height: 100%;
+	flex-direction: row;
+}
+.tab-wrap-vertical .tab-head{
+ width: 60px;
+ height: 100%;
+ flex-direction: column;
+}
+.tab-wrap-vertical .tab-head-viewport{
+	width: 60px;
+  height: 100%;
+	overflow: hidden;
+  flex-direction: column;
+}
+.tab-close{
+  display: none;
+}
+.tab-button{
+  height: 32px;
+  padding: 0 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  line-height: 32px;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+.tab-button:hover{
+	border-color: #189ff0;
+	color: #189ff0;
+	cursor: pointer;
+}

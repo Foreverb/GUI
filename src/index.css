@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 677130 */
+  src: url('//at.alicdn.com/t/font_677130_jch03kawmoa.eot');
+  src: url('//at.alicdn.com/t/font_677130_jch03kawmoa.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_677130_jch03kawmoa.woff') format('woff'),
+  url('//at.alicdn.com/t/font_677130_jch03kawmoa.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_677130_jch03kawmoa.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-info:before { content: "\e8a2"; color: #1890ff;}
+
+.icon-success:before { content: "\e617"; color: #52c41a;}
+
+.icon-error:before { content: "\e601"; color: #f5222d;}
+
+.icon-warning:before { content: "\e653"; color: #faad14;}
+
+.icon-close:before { content: "\eadd"; }
+
+.icon-cart:before { content: "\e698"; }
+
+.icon-andorid:before { content: "\e676"; font-size: 25px;}
+
+.icon-Apple:before { content: "\e733"; }
+
+.icon-xingxing:before { content: "\e6cc";font-size: 25px; }
+
+.icon-queren:before { content: "\e67f";font-size: 25px; }
+
+.icon-smile:before { content: "\e643"; font-size: 25px;}
+
+.icon-fonts-user:before { content: "\e604";color: #1890ff;font-size: 25px;}
+
+.icon-loading:before { content: "\e633";font-size: 25px;}
+
+.icon-solution:before { content: "\e650";color: #1890ff;font-size: 25px;}
+
+.icon-star:before { content: "\e60c"; font-size: 25px;}
+
+.icon-search:before { content: "\e741"; font-size: 25px;}
+
+.icon-sousuo:before { content: "\e607"; font-size: 25px;}
+
+.icon-xiazai:before { content: "\e9dd";font-size: 25px; }
+
+.icon-xiala:after { content: "\e798"; color: #1890ff;}
+
+.icon-home:before { content: "\e605"; }
+
+.icon-people:before { content: "\e65c"; }
+
+.icon-xiayige:before { content: "\e628"; }
+
+.icon-shangyige:before { content: "\e629"; }
+
+.icon-windows1:before { content: "\e600"; }
+
+.icon-setting:before { content: "\e637"; }
+
+.icon-mail:before { content: "\e69b"; }
+
+.icon-xiangxia:before { content: "\e620"; }
+
+.icon-xiangshang:before { content: "\e62d"; }
+
+.icon-edit:before { content: "\e6ec"; }
+
+.icon-check:before { content: "\e62e"; color: #fff;}
+
+.icon-cross_no:before { content: "\e69d"; color: #fff;}
+
+.icon-loading1:before { content: "\e60d"; color: #1890ff;}

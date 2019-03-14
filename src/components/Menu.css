@@ -1,0 +1,20 @@
+.menu-head{
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.menu-item{
+  display: inline-block;
+  color: #000;
+  cursor: pointer;
+  margin: 0px 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+.menu-item:hover{
+  border-bottom: 2px solid #1890ff;
+  color: #189ff0
+}
+.menu-disabled{
+  cursor: not-allowed;
+  color: #eee
+}

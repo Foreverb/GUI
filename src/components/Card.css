@@ -1,0 +1,27 @@
+.card-wrap{
+  width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  text-align: left;
+  display: inline-block;
+}
+.card-wrap h3{
+  display: inline-block;
+  float: left;
+  margin: 0px;
+}
+.extra,.extra a{
+  display: inline-block;
+  float: right;
+  text-decoration: none;
+  font-size: 14px;
+}
+.card-line{
+  border-bottom: 1px solid #ccc;
+  padding-top: 40px;
+}
+.no-border{
+  border: none
+}

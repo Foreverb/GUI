@@ -1,0 +1,18 @@
+.metion-normal{
+  width: 300px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  line-height: 30px;
+  font-size: 14px;
+  color: #999;
+  text-align: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+  transition: all .3s;
+  outline: none;
+}
+.metion-normal:hover{
+  border-color: #189ff0;
+}

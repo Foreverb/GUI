@@ -1,0 +1,17 @@
+.rate-wrap i{
+  font-style: normal;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0 5px;
+  color: #e8e8e8;
+}
+/* .star{
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0 5px;
+  color: #e8e8e8;
+} */
+.star-hover,
+.star:hover{
+  color: yellow;
+}

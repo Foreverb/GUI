@@ -1,0 +1,61 @@
+.notification-wrap{
+  position:fixed;
+  width: 384px;
+  right: 40px;
+  top: 40px;
+}
+.topLeft{
+  width: 384px;
+  position: fixed;
+  top: 40px;
+  left: 40px;
+}
+.bottomRight{
+  width: 384px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+.bottomLeft{
+  width: 384px;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+}
+.notification-card{
+  min-height: 60px;
+  font-size: 14px;
+  padding: 16px 24px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.15);
+  background: #fff;
+  line-height: 1.5;
+  position: relative;
+  margin-bottom: 16px;
+  overflow: hidden;
+  text-align: left;
+
+}
+.notification-title{
+  padding-right: 24px;
+  font-size: 16px;
+  color: rgba(0,0,0,.85);
+  margin-bottom: 8px;
+  line-height: 24px;
+  display: inline-block;
+}
+.notification-icon{
+  position: absolute;
+  right: 22px;
+  top: 16px;
+  color: rgba(0,0,0,.45);
+  cursor: pointer;
+}
+.confim{
+  position: absolute;
+  right: 0px;
+  bottom:0px;
+}
+.hide{
+  display: none 
+}
